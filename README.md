@@ -38,7 +38,7 @@ npm init vite
 ```
 
 Let Flask serve the static files of Svelte:
-```pyton
+```python
 from flask import Flask, send_from_directory
 import random
 
